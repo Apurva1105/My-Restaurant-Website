@@ -33,13 +33,14 @@ const Footer = () => {
         </Box>
         <Typography
           variant="h5"
+          //@media for responsiveness in mobile devices
           sx={{
             "@media (max-width:600px)": {
               fontSize: "1rem",
             },
           }}
         >
-          All Rights Reserved &copy; Techinfo YT
+          All Rights Reserved &copy; Food Website 2025
         </Typography>
       </Box>
     </>

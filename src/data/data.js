@@ -35,14 +35,14 @@ export const MenuList = [
     price: 100,
   },
   {
-    name: "Paneer",
+    name: "Paneer Thali",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
     image: Paneer,
     price: 400,
   },
   {
-    name: "Gujrati",
+    name: "Gujrati Thali",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
     image: Gujrati,

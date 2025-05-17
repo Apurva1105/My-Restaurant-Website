@@ -40,9 +40,9 @@ const Header = () => {
         <li>
           <NavLink to={"/menu"}>Menu</NavLink>
         </li>
-        <li>
-          <NavLink to={"/about"}>About</NavLink>
-        </li>
+        {/* <li>
+          <NavLink to={"/cart"}>Cart</NavLink>
+        </li> */}
         <li>
           <NavLink to={"/contact"}>Contact</NavLink>
         </li>
@@ -53,7 +53,8 @@ const Header = () => {
     <>
       <Box>
         <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
-          <Toolbar>
+        {/* for styling Typography is added inside toolbar */}
+          <Toolbar> 
             <IconButton
               color="inherit"
               aria-label="open drawer"
@@ -74,6 +75,7 @@ const Header = () => {
             >
               <img src={Logo} alt="logo" height={"70"} width="250" />
             </Typography>
+            {/* display xs is for mobile devices */}
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
@@ -84,6 +86,9 @@ const Header = () => {
                 <li>
                   <NavLink to={"/menu"}>Menu</NavLink>
                 </li>
+                {/* <li>
+                  <NavLink to={"/cart"}>Cart</NavLink>
+                </li> */}
                 <li>
                   <NavLink to={"/about"}>About</NavLink>
                 </li>
@@ -93,6 +98,7 @@ const Header = () => {
               </ul>
             </Box>
           </Toolbar>
+          {/* to show background content */}
         </AppBar>
         <Box component="nav">
           <Drawer
