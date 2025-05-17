@@ -50,7 +50,7 @@ const Menu = () => {
                   <Typography variant="h5" gutterBottom component={"div"}>
                     ₹{menu.price}
                   </Typography>
-                   console.log("apurva")
+                   console.log("apurva-test53")
                 </Box>
                 <Typography variant="body2">{menu.description}</Typography>
                 <Box sx={{ display: "flex", justifyContent: "flex-end", alignItems: "center", mt: 2 }}>
